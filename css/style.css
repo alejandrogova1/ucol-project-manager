@@ -3207,6 +3207,9 @@ table.table-mail tr td {
   right: 0;
 }
 /* BACKGROUNDS */
+.ucol-bg{
+  background-color: #70a225;
+}
 .gray-bg {
   background-color: #f3f3f4;
 }
@@ -3681,10 +3684,13 @@ body.modal-open {
   position:fixed;
   margin-top:-150px;  /* half of height */
   top:50%;
-  background: #fff;
+  color: #fff;
+  /*background: #fff;*/
   opacity: 0.9; 
   filter: alpha(opacity=90);
 }
+
+.loginscreen input {color:#000;}
 
 .form-signin{
   max-width: 330px;

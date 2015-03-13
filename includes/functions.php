@@ -1,4 +1,6 @@
 <?php
+$siteURL = "http://localhost/ucol/";
+
 //error_reporting(0);
 date_default_timezone_set("America/Mexico_City");
 
@@ -11,10 +13,10 @@ if (!isset($link))
 function getMyConection() {
 	global $link;
 	
-	$db_host = "localhost";
-	$db_name = "tostadas";
-	$db_user = "admin";
-	$db_pass = "root";
+	$db_host = "lionstudio.mx";
+	$db_name = "lionstud_ucol";
+	$db_user = "lionstud_ucolus";
+	$db_pass = "rPz(&zaRw?1E";
 
 	if ($link)
 	{
