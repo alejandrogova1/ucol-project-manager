@@ -6,7 +6,7 @@
                             <img alt="image" class="img-circle" src="img/profile_small.jpg" />
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Alejandr Gomez</strong>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Alejandro Gomez</strong>
                              </span> <span class="text-muted text-xs block">Director General <b class="caret"></b></span> </span> </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
                                 <li><a href="profile.php">Profile</a></li>
@@ -30,13 +30,13 @@
                         <a href="proyectos.php"><i class="fa fa-briefcase"></i> <span class="nav-label">Proyectos </span></a>
                     </li>
                     <li>
-                        <a href="ingresos.php"><i class="fa fa-briefcase"></i> <span class="nav-label">Ingresos </span></a>
+                        <a href="#"><i class="fa fa-arrow-down"></i> <span class="nav-label">Ingresos </span></a>
                     </li>
                     <li>
-                        <a href="egresos.php"><i class="fa fa-briefcase"></i> <span class="nav-label">Egresos </span></a>
+                        <a href="#"><i class="fa fa-arrow-up"></i> <span class="nav-label">Egresos </span></a>
                     </li>
                     <li>
-                        <a href="reportes.php"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Reportes</span></a>
+                        <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Reportes</span></a>
                     </li>
                 </ul>
             </div>

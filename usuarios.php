@@ -22,34 +22,15 @@ if(!isset($_COOKIE["idUsuario"])) {
 ?>
         <div id="page-wrapper" class="gray-bg">
         <div class="row border-bottom">
-        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-        <div class="navbar-header">
-            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-        </div>
+          <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            </div>
             <ul class="nav navbar-top-links navbar-right">
-                <li>
-                    <span class="m-r-sm text-muted welcome-message">Bienvenido al Administrador de Proyectos.</span>
-                </li>
                 <li><a href="includes/logout.php"><i class="fa fa-sign-out"></i> Cerrar Sesión</a></li>
             </ul>
-        </nav>
+          </nav>
         </div>
-            <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-9">
-                    <h2>Contacts</h2>
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            App Views
-                        </li>
-                        <li class="active">
-                            <strong>Contacts</strong>
-                        </li>
-                    </ol>
-                </div>
-            </div>
         <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
             <div class="col-lg-4">
@@ -377,29 +358,16 @@ if(!isset($_COOKIE["idUsuario"])) {
             </div>
         </div>
         </div>
-        <div class="footer">
-            <div class="pull-right">
-                10GB of <strong>250GB</strong> Free.
-            </div>
-            <div>
-                <strong>Copyright</strong> Example Company &copy; 2014-2015
-            </div>
-        </div>
-
         </div>
         </div>
-
     <!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
     <!-- Custom and plugin javascript -->
     <script src="js/inspinia.js"></script>
     <script src="js/plugins/pace/pace.min.js"></script>
-
-
     <script>
         $(document).ready(function(){
             $('.contact-box').each(function() {
@@ -407,7 +375,5 @@ if(!isset($_COOKIE["idUsuario"])) {
             });
         });
     </script>
-
 </body>
-
 </html>

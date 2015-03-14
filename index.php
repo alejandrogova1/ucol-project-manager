@@ -24,58 +24,19 @@ if(!isset($_COOKIE["idUsuario"])) {
 <?php
     require_once("includes/menu.php");
 ?>
-        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div id="page-wrapper" class="gray-bg">
         <div class="row border-bottom">
-        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-        <div class="navbar-header">
-            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-        </div>
+          <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            </div>
             <ul class="nav navbar-top-links navbar-right">
-                <li>
-                    <span class="m-r-sm text-muted welcome-message">Bienvenido al Administrador de Proyectos.</span>
-                </li>
                 <li><a href="includes/logout.php"><i class="fa fa-sign-out"></i> Cerrar Sesión</a></li>
             </ul>
-        </nav>
+          </nav>
         </div>
                 <div class="row  border-bottom white-bg dashboard-header">
-                    <div class="col-sm-3">
-                        <h2>Bienvenido Alejandro</h2>
-                        <small>You have 42 messages and 6 notifications.</small>
-                        <ul class="list-group clear-list m-t">
-                            <li class="list-group-item fist-item">
-                                <span class="pull-right">
-                                    09:00 pm
-                                </span>
-                                <span class="label label-success">1</span> Please contact me
-                            </li>
-                            <li class="list-group-item">
-                                <span class="pull-right">
-                                    10:16 am
-                                </span>
-                                <span class="label label-info">2</span> Sign a contract
-                            </li>
-                            <li class="list-group-item">
-                                <span class="pull-right">
-                                    08:22 pm
-                                </span>
-                                <span class="label label-primary">3</span> Open new shop
-                            </li>
-                            <li class="list-group-item">
-                                <span class="pull-right">
-                                    11:06 pm
-                                </span>
-                                <span class="label label-default">4</span> Call back to Sylvia
-                            </li>
-                            <li class="list-group-item">
-                                <span class="pull-right">
-                                    12:00 am
-                                </span>
-                                <span class="label label-primary">5</span> Write a letter to Sandra
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <div class="flot-chart dashboard-chart">
                             <div class="flot-chart-content" id="flot-dashboard-chart"></div>
                         </div>
@@ -102,7 +63,7 @@ if(!isset($_COOKIE["idUsuario"])) {
         <div class="row">
             <div class="statistic-box">
             <h4>Progreso de Proyectos</h4>
-            <p>Actualmente hay 2 projectos pendientes.</p>
+            <p>Actualmente hay <b>2</b> projectos pendientes.</p>
                 <div class="row text-center">
                     <div class="col-lg-6">
                         <canvas id="polarChart" width="150" height="150"></canvas>
@@ -155,18 +116,6 @@ if(!isset($_COOKIE["idUsuario"])) {
     <script src="js/plugins/toastr/toastr.min.js"></script>
     <script>
         $(document).ready(function() {
-            setTimeout(function() {
-                toastr.options = {
-                    closeButton: true,
-                    progressBar: true,
-                    showMethod: 'slideDown',
-                    timeOut: 4000
-                };
-                toastr.success('Responsive Admin Theme', 'Welcome to INSPINIA');
-
-            }, 1300);
-
-
             var data1 = [
                 [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]
             ];
